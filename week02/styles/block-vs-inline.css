@@ -40,3 +40,12 @@ code {
     background-color: #3d503d;
     color: #fff;
 }
+
+main,
+img{
+    display: block;
+    margin: 0 auto;
+}
+.color{
+    background-color:forestgreen ;
+}
