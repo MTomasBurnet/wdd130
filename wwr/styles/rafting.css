@@ -133,21 +133,15 @@ article{
     text-align: center;
 }
 
-figure{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    margin: 1rem;
-    text-align: justify;
-}
-figure figcaption{
-    order: 1;
-    padding: 1rem;
-}
-
 figure img{
     max-width: 125px;
     height: auto;
+}
+
+.imgfigure{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
 }
 
 footer{
